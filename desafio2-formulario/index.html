@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2: desenvolvendo formulário</title>
+    <style>
+        body {
+            background: linear-gradient(105deg, #dc57a254 10%, #edbdf246 20%, #dc57a25f 40%);
+            margin-left: 50px;
+        }
+    </style>    
+</head>
+
+<body>
+    <h1 style="color:lightcoral;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgba(248, 214, 219, 0.433);" >📃 Formulário de inscrição</h1>
+
+    <form action="agradecimento.html" method="" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <p>
+            <label> Digite o seu nome:</label>
+            <input placeholder="Digite aqui" type="text" required>
+        </p>
+        <p>
+            <label> Digite o seu endereço:</label>
+            <input value="Rua e nr" type="text">
+        </p>
+        <p>
+            <label> Digite o seu bairro:</label>
+            <input value="Bairro" type="text" name="bairro">
+        </p>
+        <p>
+            <label> Digite a sua cidade</label>
+            <input value="Santo André" type="text" name="cidade">
+        </p>
+        <p>
+            <label> Selecione sua data de nascimento:</label>
+            <input type="date" name="dataNascimento">
+        </p>
+        <p>
+            <label>Digite sua mensagem:</label><br>
+            <textarea name="mensagem" cols="45" rows="5"></textarea>
+        </p>
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <!-- checkbox -->
+            <label> Escolha os modelos de trabalho:</label>
+            <ul style="list-style: none;" >
+                <li><input type="checkbox" name="presencial" id="">Presencial</li>
+                <li><input type="checkbox" name="remoto" id="">Remoto</li>
+                <li><input type="checkbox" name="hibrido" id="">Hibrido</li>
+            </ul>
+        </p>
+        <p>
+            <label>Escolha o período de trabalho:</label>
+            <ul style="list-style: none;">
+                <li><input type="radio" name="periodo1">Manhã</li>
+                <li><input type="radio" name="periodo2">Tarde</li>
+                <li><input type="radio" name="periodo3">Noite</li>
+            </ul>
+        </p>
+        <p>
+            <!-- select list -->
+             <label > Escolha um estado:</label>
+             <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="ES" selected>Espírito Santo</option>
+                <option value="CE">Ceará</option>
+                <option value="RJ">Rio de Janeiro</option>
+             </select>
+        </p>
+        <p>
+            <input type="checkbox" name="TermoConsentimento" >Aceita os <a href="">termos</a> de cadastro do site.
+        </p>
+        <button type="submit">Enviar dados</button> <button type="reset">Limpar os campos</button>
+    </form>
+    
+</body>
+</html>
