@@ -10,3 +10,6 @@ A tabela abaixo foi desenvolvida em html e css
 O formulário abaixo foi desenvolvida em html e css
 
 ![Formulario](https://github.com/user-attachments/assets/dec73966-2e4b-402e-8b0f-336737e53156)
+
+## Desafio 3: desenvolver uma página completa
+A página foi desenvolvida em html + css, simulando uma página de cursos do SENAI
